@@ -1,0 +1,389 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Local"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{2AA61963-247B-4518-873F-85A6B53CB36D}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = "App.ico"
+                AssemblyKeyContainerName = ""
+                AssemblyName = "Tool++"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "WinExe"
+                PreBuildEvent = ""
+                PostBuildEvent = ""
+                RootNamespace = "Tool__"
+                RunPostBuildEvent = "OnBuildSuccess"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "false"
+                    OutputPath = "bin\Debug\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "true"
+                    OutputPath = "bin\Release\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "..\..\WINNT\Microsoft.NET\Framework\v1.1.4322\System.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "..\..\WINNT\Microsoft.NET\Framework\v1.1.4322\System.Data.dll"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                    HintPath = "..\..\WINNT\Microsoft.NET\Framework\v1.1.4322\System.Drawing.dll"
+                />
+                <Reference
+                    Name = "System.Windows.Forms"
+                    AssemblyName = "System.Windows.Forms"
+                    HintPath = "..\..\WINNT\Microsoft.NET\Framework\v1.1.4322\System.Windows.Forms.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "..\..\WINNT\Microsoft.NET\Framework\v1.1.4322\System.XML.dll"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "About.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "About.resx"
+                    DependentUpon = "About.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "App.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "AssemblyInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "AsyncOperation.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Main.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Main.resx"
+                    DependentUpon = "Main.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ProcessCaller.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Properties.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Properties.resx"
+                    DependentUpon = "Properties.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Controls\FileReference.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Controls\FileReference.resx"
+                    DependentUpon = "FileReference.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Controls\FolderReference.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Controls\FolderReference.resx"
+                    DependentUpon = "FolderReference.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "GUI Wrappers\Animations.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "GUI Wrappers\Animations.resx"
+                    DependentUpon = "Animations.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "GUI Wrappers\Bitmap.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "GUI Wrappers\Bitmap.resx"
+                    DependentUpon = "Bitmap.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "GUI Wrappers\Bitmaps.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "GUI Wrappers\Bitmaps.resx"
+                    DependentUpon = "Bitmaps.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "GUI Wrappers\BuildCacheFile.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "GUI Wrappers\BuildCacheFile.resx"
+                    DependentUpon = "BuildCacheFile.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "GUI Wrappers\CollisionGeometry.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "GUI Wrappers\CollisionGeometry.resx"
+                    DependentUpon = "CollisionGeometry.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "GUI Wrappers\HudMessages.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "GUI Wrappers\HudMessages.resx"
+                    DependentUpon = "HudMessages.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "GUI Wrappers\IDD.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "GUI Wrappers\IDD.resx"
+                    DependentUpon = "IDD.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "GUI Wrappers\Lightmaps.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "GUI Wrappers\Lightmaps.resx"
+                    DependentUpon = "Lightmaps.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "GUI Wrappers\MergeScenery.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "GUI Wrappers\MergeScenery.resx"
+                    DependentUpon = "MergeScenery.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "GUI Wrappers\Model.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "GUI Wrappers\Model.resx"
+                    DependentUpon = "Model.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "GUI Wrappers\Physics.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "GUI Wrappers\Physics.resx"
+                    DependentUpon = "Physics.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "GUI Wrappers\ProcessSounds.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "GUI Wrappers\ProcessSounds.resx"
+                    DependentUpon = "ProcessSounds.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "GUI Wrappers\SBS.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "GUI Wrappers\SBS.resx"
+                    DependentUpon = "SBS.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "GUI Wrappers\Sounds.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "GUI Wrappers\Sounds.resx"
+                    DependentUpon = "Sounds.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "GUI Wrappers\SoundsByType.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "GUI Wrappers\SoundsByType.resx"
+                    DependentUpon = "SoundsByType.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "GUI Wrappers\Strings.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "GUI Wrappers\Strings.resx"
+                    DependentUpon = "Strings.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "GUI Wrappers\Structure.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "GUI Wrappers\Structure.resx"
+                    DependentUpon = "Structure.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "GUI Wrappers\StructureLensFlares.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "GUI Wrappers\StructureLensFlares.resx"
+                    DependentUpon = "StructureLensFlares.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "GUI Wrappers\UnicodeStrings.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "GUI Wrappers\UnicodeStrings.resx"
+                    DependentUpon = "UnicodeStrings.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "GUI Wrappers\WindowsFont.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "GUI Wrappers\WindowsFont.resx"
+                    DependentUpon = "WindowsFont.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "GUI Wrappers\Wrapper.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "GUI Wrappers\Wrapper.resx"
+                    DependentUpon = "Wrapper.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "GUI Wrappers\ZMU.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "GUI Wrappers\ZMU.resx"
+                    DependentUpon = "ZMU.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+            </Include>
+        </Files>
+    </CSHARP>
+</VisualStudioProject>
+
